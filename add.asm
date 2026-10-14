@@ -1,0 +1,4 @@
+MOV A,12H
+MOV B,12H
+ADD A,B
+END

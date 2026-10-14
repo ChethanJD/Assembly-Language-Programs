@@ -1,0 +1,14 @@
+ORG 00H 
+ MOV C,20H 
+ CPL C 
+ ANL C,/01H 
+ ANL C,/00H 
+ MOV 08H,C 
+  
+ MOV C,20H 
+ ANL C,01H 
+ ANL C,00H 
+ ORL C,08H 
+  
+ MOV 08H,C 
+ END

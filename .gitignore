@@ -1,0 +1,45 @@
+# Keil uVision / MCS-51 / 8051
+# Build outputs (regenerated on every build)
+Objects/
+Listings/
+*.obj
+*.lst
+*.m51
+*.hex
+*.lnp
+*.build_log.htm
+*.dep
+*.d
+*.iex
+*.axf
+*.sct
+*.crf
+*.o
+*.plg
+*.tra
+
+# Keil per-user session / window state (contains local paths, usernames)
+*.uvopt
+*.uvgui.*
+*.uvproj.bak
+*.uvguix.*
+
+# Keil backups
+*.bak
+*.__i
+*.saved_*
+
+# Generic
+*.tmp
+*.temp
+*.log
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Keep project + source tracked explicitly (safety net against over-ignoring)
+!*.uvproj
+!*.asm
+!*.a51
+!*.c
+!*.h
